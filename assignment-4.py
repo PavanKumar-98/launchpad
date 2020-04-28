@@ -21,7 +21,7 @@ string1 = input("\nenter the strings")
 for i in (string1):
 	correction(i)
 
-print("".join(string2))
+print(string2)
 	
 
 
