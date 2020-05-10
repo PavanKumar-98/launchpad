@@ -9,10 +9,10 @@ try:
 	div(a,b)
 	print(f"answer is{res}")
 
-except divisionbyZero as err :
-	print("division by zero!")
+except ZeroDivisionError as err :
+	print("division by zero!",err)
 
-	# raise NameError(divisionbyZero)
+
 
 
 
