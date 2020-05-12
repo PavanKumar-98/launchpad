@@ -26,7 +26,7 @@ class Robot_Movement:
 		x = self.up - self.down
 		y = self.right - self.left
 		position = int(math.hypot(x,y))
-		print(f"The position of the robot is{position}")
+		print(f"The position of the robot is \n{position}")
 
 robo_move = Robot_Movement()
 ''' ch is a temperary variable for convience for using conditional statements
